@@ -24,6 +24,4 @@ stages:
   - name: Deploy
     steps:
       - applyYamlConfig:
-          multiClusterDeploy:
-          - clusterName: ""
-            yamlPath: ./deployment.yaml
+          path: ./deployment.yaml
