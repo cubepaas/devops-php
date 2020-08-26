@@ -2,7 +2,7 @@ stages:
   - name: Codeception test
     steps:
       - runScriptConfig:
-          image: linkcloud/php:7.2
+          image: registry.cn-hangzhou.aliyuncs.com/link-cloud/php:7.2
           shellScript: |-
             apt-get update
             apt-get install -y --no-install-recommends git zip libsqlite3-dev zlib1g-dev
